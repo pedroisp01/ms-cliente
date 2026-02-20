@@ -129,7 +129,7 @@ Content-Type: application/x-www-form-urlencoded
   curl --location --request POST 'http://localhost:8080/oauth/token' \
     --header 'Authorization: Basic Y2xpZW50LWlkOmNsaWVudC1zZWNyZXQ=' \
     --form 'grant_type=password' \
-    --form 'username=pedro' \
+    --form 'username=admin' \
     --form 'password=123' \
     --user 'client-id:client-secret'
 ```
